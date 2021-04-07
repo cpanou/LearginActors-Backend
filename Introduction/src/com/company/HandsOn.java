@@ -1,6 +1,5 @@
-package com.company.handson;
+package com.company;
 
-import com.company.Application;
 import com.company.handson.books.BooksApp;
 import com.company.handson.swap.SwapApp;
 
@@ -20,7 +19,6 @@ public class HandsOn extends Application {
     }
 
     public static void run() {
-
         System.out.println("------------ Running Hands On ------------");
         new HandsOn().start();
         System.out.println("------------ Hands On Finished ------------");

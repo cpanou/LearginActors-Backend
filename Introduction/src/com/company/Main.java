@@ -19,8 +19,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Application.Homework.run();
-        Application.HandsOn.run();
+        Homework.run();
+        HandsOn.run();
     }
 
 }
